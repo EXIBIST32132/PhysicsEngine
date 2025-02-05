@@ -1,0 +1,552 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						11,
+						15
+					]
+				},
+				{
+					"build" : "_deps/glfw-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glfw-build-Debug-b707985a755253633616.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/glfw-src",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "_deps/glfw-build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glfw-build.src-Debug-cfc96194d924250db6b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/glfw-src/src",
+					"targetIndexes" : 
+					[
+						14,
+						17
+					]
+				},
+				{
+					"build" : "_deps/glad-build",
+					"jsonFile" : "directory-_deps.glad-build-Debug-20928222860b234befe4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/glad-src",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "_deps/glm-build",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-_deps.glm-build-Debug-3ab0f2b8ca6d44de8bbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "cmake-build-debug/_deps/glm-src"
+				},
+				{
+					"build" : "_deps/glm-build/glm",
+					"jsonFile" : "directory-_deps.glm-build.glm-Debug-afa33c3e425f714e5927.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "cmake-build-debug/_deps/glm-src/glm"
+				},
+				{
+					"build" : "_deps/bullet-build",
+					"childIndexes" : 
+					[
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.bullet-build-Debug-fcb4b81676ff75321849.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/bullet-src"
+				},
+				{
+					"build" : "_deps/bullet-build/src",
+					"childIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"jsonFile" : "directory-_deps.bullet-build.src-Debug-7aeb11b4ae8ffc93abc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/bullet-src/src"
+				},
+				{
+					"build" : "_deps/bullet-build/src/Bullet3OpenCL",
+					"jsonFile" : "directory-_deps.bullet-build.src.Bullet3OpenCL-Debug-6c723b8efb37d6255a47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/bullet-src/src/Bullet3OpenCL",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "_deps/bullet-build/src/Bullet3Serialize/Bullet2FileLoader",
+					"jsonFile" : "directory-_deps.bullet-build.src.Bullet3Serialize.Bullet2FileLoader-Debug-7713ff7ee65e2d56f933.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/bullet-src/src/Bullet3Serialize/Bullet2FileLoader",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/bullet-build/src/Bullet3Dynamics",
+					"jsonFile" : "directory-_deps.bullet-build.src.Bullet3Dynamics-Debug-8d163a11ea99e9174617.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/bullet-src/src/Bullet3Dynamics",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "_deps/bullet-build/src/Bullet3Collision",
+					"jsonFile" : "directory-_deps.bullet-build.src.Bullet3Collision-Debug-5b4372f58258a539a81a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/bullet-src/src/Bullet3Collision",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/bullet-build/src/Bullet3Geometry",
+					"jsonFile" : "directory-_deps.bullet-build.src.Bullet3Geometry-Debug-ebc0ccf85a521ef273e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/bullet-src/src/Bullet3Geometry",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/bullet-build/src/BulletInverseDynamics",
+					"jsonFile" : "directory-_deps.bullet-build.src.BulletInverseDynamics-Debug-a4c0c339a11e8038da49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/bullet-src/src/BulletInverseDynamics",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "_deps/bullet-build/src/BulletSoftBody",
+					"jsonFile" : "directory-_deps.bullet-build.src.BulletSoftBody-Debug-de53798d5a153b9fc631.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/bullet-src/src/BulletSoftBody",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "_deps/bullet-build/src/BulletCollision",
+					"jsonFile" : "directory-_deps.bullet-build.src.BulletCollision-Debug-b5d60322765ee34db830.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/bullet-src/src/BulletCollision",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/bullet-build/src/BulletDynamics",
+					"jsonFile" : "directory-_deps.bullet-build.src.BulletDynamics-Debug-59d0b283add4d29d5ab9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/bullet-src/src/BulletDynamics",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "_deps/bullet-build/src/LinearMath",
+					"jsonFile" : "directory-_deps.bullet-build.src.LinearMath-Debug-d7fa35e69bc6af3d0647.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/bullet-src/src/LinearMath",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "_deps/bullet-build/src/Bullet3Common",
+					"jsonFile" : "directory-_deps.bullet-build.src.Bullet3Common-Debug-b5bf9140977607a574ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.3"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/bullet-src/src/Bullet3Common",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MinimalGameEngine",
+					"targetIndexes" : 
+					[
+						11,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "GLAD",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "glm",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"name" : "BULLET_PHYSICS",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 9,
+					"id" : "Bullet2FileLoader::@1c2ac7274125262a8932",
+					"jsonFile" : "target-Bullet2FileLoader-Debug-e5a0f6419cfb2c926d62.json",
+					"name" : "Bullet2FileLoader",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "Bullet3Collision::@b9b3dd1de84cd558a739",
+					"jsonFile" : "target-Bullet3Collision-Debug-4d1d9cfe1ec1d358293d.json",
+					"name" : "Bullet3Collision",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "Bullet3Common::@963bb0fc0c6f87a9f538",
+					"jsonFile" : "target-Bullet3Common-Debug-9823781262d4b62a59b0.json",
+					"name" : "Bullet3Common",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Bullet3Dynamics::@c0a0b5941ed8abd6cb18",
+					"jsonFile" : "target-Bullet3Dynamics-Debug-694b8c60d57330e524b2.json",
+					"name" : "Bullet3Dynamics",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "Bullet3Geometry::@f6838457df0b919a6955",
+					"jsonFile" : "target-Bullet3Geometry-Debug-e54c565b8aecf2c0f1f7.json",
+					"name" : "Bullet3Geometry",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Bullet3OpenCL_clew::@76ecaca7b010bac978f2",
+					"jsonFile" : "target-Bullet3OpenCL_clew-Debug-993ec524a45169128c3c.json",
+					"name" : "Bullet3OpenCL_clew",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "BulletCollision::@0b2d23b4ef4cd2356ac5",
+					"jsonFile" : "target-BulletCollision-Debug-bc6bb430dbcb68c98eef.json",
+					"name" : "BulletCollision",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "BulletDynamics::@137948321e81c43cff64",
+					"jsonFile" : "target-BulletDynamics-Debug-363275db87f033904123.json",
+					"name" : "BulletDynamics",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "BulletInverseDynamics::@7dd714f324e0eeb8c273",
+					"jsonFile" : "target-BulletInverseDynamics-Debug-2679f7e1e2b8743e9b52.json",
+					"name" : "BulletInverseDynamics",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "BulletSoftBody::@eb88a0d9a20358a583cc",
+					"jsonFile" : "target-BulletSoftBody-Debug-f357ef04ce5b67b7cb3b.json",
+					"name" : "BulletSoftBody",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "LinearMath::@e786a5790580a49369ce",
+					"jsonFile" : "target-LinearMath-Debug-14426a8d7d9e2c2abac4.json",
+					"name" : "LinearMath",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MinimalGameEngine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MinimalGameEngine-Debug-97d770df4106acb1df70.json",
+					"name" : "MinimalGameEngine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glad::@f022c46af7fd79d63a94",
+					"jsonFile" : "target-glad-Debug-2f1249710ef8d286023c.json",
+					"name" : "glad",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glad-generate-files::@f022c46af7fd79d63a94",
+					"jsonFile" : "target-glad-generate-files-Debug-cc2b6081cff23840a6ef.json",
+					"name" : "glad-generate-files",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@fa9f4482d3a2b070f206",
+					"jsonFile" : "target-glfw-Debug-30e9a090da4c1989150e.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imgui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imgui-Debug-51ec4cd65bee07c2c1ea.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@369fad943889a5ec39c8",
+					"jsonFile" : "target-uninstall-Debug-d7ed36de6a7be82b46e7.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@fa9f4482d3a2b070f206",
+					"jsonFile" : "target-update_mappings-Debug-ea47f6a23507fc57fee8.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jonathanst-georges/CLionProjects/Physics-Engine/cmake-build-debug",
+		"source" : "/Users/jonathanst-georges/CLionProjects/Physics-Engine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

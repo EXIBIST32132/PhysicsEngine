@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/bullet-build/src/BulletCollision",
+		"source" : "cmake-build-debug/_deps/bullet-src/src/BulletCollision"
+	}
+}

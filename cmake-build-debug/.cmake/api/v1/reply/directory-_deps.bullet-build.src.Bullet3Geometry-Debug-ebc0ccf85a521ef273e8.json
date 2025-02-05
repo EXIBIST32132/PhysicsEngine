@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/bullet-build/src/Bullet3Geometry",
+		"source" : "cmake-build-debug/_deps/bullet-src/src/Bullet3Geometry"
+	}
+}
