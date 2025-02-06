@@ -36,6 +36,6 @@ Apple
 OPENGL FOUND
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework
 Mac OSX Version is 14.5
--- Configuring done (1.6s)
--- Generating done (0.1s)
+-- Configuring done (4.8s)
+-- Generating done (0.3s)
 -- Build files have been written to: /Users/jonathanst-georges/CLionProjects/Physics-Engine/cmake-build-debug

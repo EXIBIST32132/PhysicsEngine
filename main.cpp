@@ -381,6 +381,7 @@ void drawSphere(const glm::mat4& model, const glm::vec3& color, const Mesh& mesh
 bool showDemoWindow = false;
 bool addBox = false;
 bool addSphere = false;
+bool deleteObjects = false;
 
 // Global vectors for dynamic bodies and collision shapes.
 std::vector<btRigidBody*> globalDynamicBodies;
@@ -501,6 +502,8 @@ int main() {
                     addBox = true;
                 if (ImGui::MenuItem("Add Sphere"))
                     addSphere = true;
+                if (ImGui::MenuItem("Delete Objects"))
+                    deleteObjects = true;
                 ImGui::EndMenu();
             }
             if (ImGui::BeginMenu("Options")) {
@@ -535,6 +538,12 @@ int main() {
             transform.setOrigin(btVector3(cameraPos.x, cameraPos.y, cameraPos.z - 5));
             btRigidBody* body = createRigidBody(sphereShape, 1.0f, transform);
             globalDynamicBodies.push_back(body);
+            addSphere = false;
+        }
+        if (deleteObjects) {
+            globalDynamicBodies.clear();
+            deleteObjects = false;
+            addBox = false;
             addSphere = false;
         }
         // Render scene
